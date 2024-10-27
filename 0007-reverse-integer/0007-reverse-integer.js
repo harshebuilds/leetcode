@@ -3,21 +3,18 @@
  * @return {number}
  */
 var reverse = function (x) {
-    let n = x;
-    let s = "";
-    if (n < 0) {
-        s += '-';
-        n = Math.abs(n)
+    let ans = 0;
+    const INT_MAX = 2147483647;
+    const INT_MIN = -2147483648;
+
+    while (x != 0) {
+        let y = x % 10;
+        if ((ans <( INT_MIN / 10)) || (ans > (INT_MAX / 10))) {
+            return 0;
+        }
+        ans = (ans * 10) + y;
+        x = (x / 10) | 0;
     }
-    while (n > 0) {
-        s += n % 10;
-        n = Math.floor(n / 10);
-    }
-    let ans = Number(s);
-    if (ans > 2147483647 || ans == NaN || ans < -2147483648) {
-        return 0;
-    } else {
-        return ans;
-    }
+    return ans;
 
 };
