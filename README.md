@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/harshebuilds/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/harshebuilds/leetcode/tree/master/0011-container-with-most-water) |
 ## String
 |  |
 | ------- |
@@ -25,4 +26,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/harshebuilds/leetcode/tree/master/0010-regular-expression-matching) |
+## Array
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/harshebuilds/leetcode/tree/master/0011-container-with-most-water) |
+## Greedy
+|  |
+| ------- |
+| [0011-container-with-most-water](https://github.com/harshebuilds/leetcode/tree/master/0011-container-with-most-water) |
 <!---LeetCode Topics End-->
